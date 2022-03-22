@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var ballImage: UIImageView!
 
     @IBAction func askButtonPressed(_ sender: UIButton) {
+        
+        ballImage.image = #imageLiteral(resourceName: "ball3")
+        
     }
     
 
